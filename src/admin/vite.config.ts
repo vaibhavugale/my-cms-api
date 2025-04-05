@@ -8,5 +8,8 @@ export default (config: UserConfig) => {
         '@': '/src',
       },
     },
+    server: {
+      allowedHosts: ['ec2-54-175-226-13.compute-1.amazonaws.com'],
+    },
   });
 };
